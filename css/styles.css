@@ -81,6 +81,8 @@ hr {
   height: 48px;
   left: 300px;
   bottom: 300px;
+  /* This z-index is to allow the cloud to be accessible on top of the mountain div when the browser is at the smallest size*/ 
+  z-index: 999;
 }
 
 .bottom-cloud-div .cloud-colored {
