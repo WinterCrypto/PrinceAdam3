@@ -1,0 +1,247 @@
+body {
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #FFF;
+  display: inline-block;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  text-shadow: -5px 5px 5px #81CBCC;
+}
+
+h1:hover {
+  color: #81CBCC;
+  text-shadow: -5px 5px 5px #11999E;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  border-color: #a6dcef;
+  border-style: dotted none none;
+  border-width: 10px;
+  margin: 70px auto 70px;
+  width: 5%;
+}
+
+/* TOP SECTION */
+.top-container {
+  background-color: #E4F9F5;
+  padding-top: 100px;
+  position: relative;
+}
+
+.intro-h2 {
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+.prince-of {
+  text-decoration: underline;
+}
+
+/* Top Cloud Hover Configurations */
+.top-cloud-div {
+  position: absolute;
+  width: 150px;
+  height: 48px;
+  right: 300px;
+  top: 50px;
+}
+
+.top-cloud-div .cloud-colored {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.top-cloud-div:hover .cloud-colored {
+  display: inline;
+}
+
+/* Bottom Cloud Hover Configurations */
+.bottom-cloud-div {
+  position: absolute;
+  width: 150px;
+  height: 48px;
+  left: 300px;
+  bottom: 300px;
+}
+
+.bottom-cloud-div .cloud-colored {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.bottom-cloud-div:hover .cloud-colored {
+  display: inline;
+}
+
+/* Mountain Hover Configurations */
+.mountain-div {
+  position: relative;
+  width: 624px;
+  height: 351px;
+  margin: auto;
+}
+
+.mountain-div .mountain-colored {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.mountain-div:hover .mountain-colored {
+  display: inline;
+}
+
+/* MIDDLE SECTION */
+.middle-container {
+  background-color: #EAFAF7;
+  padding: 70px 0;
+}
+
+.profile {
+  margin-bottom: 35px;
+}
+
+.profile-image {
+  padding-bottom: 30px;
+  width: 15%;
+}
+
+.profile-image:hover {
+  border-top-right-radius: 35px;
+  border-bottom-left-radius: 35px;
+  box-shadow: 5px 5px 20px #11999E;
+}
+
+.intro-p {
+  color: #40514E;
+  line-height: 2;
+  margin: auto;
+  width: 30%;
+}
+
+.skill-row {
+  line-height: 2;
+  margin: 100px auto;
+  text-align: left;
+  width: 50%;
+}
+
+.power-gif {
+  border-top-right-radius: 45%;
+  box-shadow: -5px -5px 20px #11999E;
+  float: left;
+  margin-right: 30px;
+  width: 35%;
+}
+
+.power-gif:hover {
+  box-shadow: -5px -5px 20px red;
+}
+
+.speed-gif {
+  border-bottom-left-radius: 35px;
+  border-top-right-radius: 35px;
+  box-shadow: -5px -5px 20px #11999E;
+  float: right;
+  margin-left: 30px;
+  width: 35%;
+}
+
+.speed-gif:hover {
+  box-shadow: -5px -5px 20px red;
+}
+
+.contact-description {
+  line-height: 2;
+  margin: 60px auto 60px;
+  width: 40%;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+/* BOTTOM SECTION */
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0;
+}
+
+.footer-link {
+  color: #11999E;
+  margin: 30px;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #EAF6F6;
+}
+
+.copyright {
+  color: #EAF6F6;
+  padding-top: 20px;
+}
+
+
+/* MEDIA QUERY SECTION  */
+@media (max-width: 700px) {
+  .mountain-div {
+    position: relative;
+    width: 450px;
+    height: 253.13px;
+    margin: auto;
+  }
+
+  .mountain-image, .mountain-colored {
+    width: 450px;
+    height: 253.13px;
+  }
+
+}
