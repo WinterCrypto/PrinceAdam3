@@ -239,6 +239,14 @@ hr {
     margin: auto;
   }
 
+  .bottom-cloud-div {
+    position: absolute;
+    width: 150px;
+    height: 48px;
+    left: 300px;
+    bottom: 200px;
+  }
+
   .mountain-image, .mountain-colored {
     width: 450px;
     height: 253.13px;
