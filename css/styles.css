@@ -1,4 +1,5 @@
 body {
+  color: #40514E;
   font-family: 'Merriweather', serif;
   margin: 0;
   text-align: center;
@@ -45,7 +46,7 @@ hr {
 }
 
 .intro-h2 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: normal;
 }
 
@@ -81,7 +82,7 @@ hr {
   height: 48px;
   left: 300px;
   bottom: 300px;
-  /* This z-index is to allow the cloud to be accessible on top of the mountain div when the browser is at the smallest size*/ 
+  /* This z-index is to allow the cloud to be accessible on top of the mountain div when the browser is at the smallest size*/
   z-index: 999;
 }
 
@@ -140,7 +141,6 @@ hr {
 }
 
 .intro-p {
-  color: #40514E;
   line-height: 2;
   margin: auto;
   width: 30%;
@@ -250,7 +250,7 @@ hr {
     bottom: 200px;
   }
 
-  .mountain-image, .mountain-colored {
+  .mountain-colored, .mountain-image  {
     width: 450px;
     height: 253.13px;
   }
